@@ -1,5 +1,11 @@
 # 🌟 Proyecto de Tarjetas Interactivas 🌟
 
+
+
+
+https://github.com/user-attachments/assets/a043fc20-c9e9-4bbc-bd2e-f2d076d5bb75
+
+
 ## Visión General
 Este proyecto presenta un conjunto de tres tarjetas interactivas que se destacan por su diseño moderno y sus efectos de animación suaves. Estas tarjetas pueden ser utilizadas para mostrar información visual de manera atractiva y dinámica en cualquier sitio web. 📊✨
 
@@ -14,7 +20,7 @@ Este proyecto presenta un conjunto de tres tarjetas interactivas que se destacan
 - 🔤 **Google Fonts**: Fuente `Poppins` para una mejor tipografía.
 
 ## Demostración
-Puedes ver una demostración en vivo del proyecto [aquí](#). *(Reemplaza `#` con el enlace a tu demostración en vivo si tienes uno)* 👀
+Puedes ver una demostración en vivo del proyecto [aquí](https://josecondori-ai.github.io/-Proyecto-de-Tarjetas-Interactivas/). 👀
 
 ## Cómo Usar
 1. 🚀 Clona el repositorio:
