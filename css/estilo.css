@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Restablecer el margen y el relleno para todos los elementos y establecer una fuente global */
+* {
+    margin: 0;
+    padding: 0;
+    color: white; /* Gris oscuro para mejor legibilidad */
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Estilo para el cuerpo */
+body {
+    height: 100vh;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centrar contenido vertical y horizontalmente */
+}
+
+/* Contenedor para las tarjetas */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px; /* Espacio entre las tarjetas */
+}
+
+/* Estilo individual de la tarjeta */
+.card {
+    height: 500px;
+    width: 350px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: transform 250ms ease-in-out; /* Efecto de transición suave */
+}
+
+/* Imagen dentro de la tarjeta */
+.card img {
+    height: 100%;
+}
+
+/* Contenido dentro de la tarjeta */
+.card_content {
+    width: calc(100% - 40px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre los elementos dentro del contenido de la tarjeta */
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.841) 25%);
+    transform: translateY(calc(100% - 108px)); /* Posición del contenido oculto */
+    transition: transform 250ms ease-in-out; /* Efecto de transición suave */
+}
+
+/* Estilo del título de la tarjeta */
+h3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* Efecto hover de la tarjeta */
+.card:hover .card_content {
+    transform: translateY(0); /* Revelar contenido al pasar el ratón */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumentar ligeramente la tarjeta al pasar el ratón */
+}
+
+/* Estilo del subtítulo */
+h4 {
+    font-style: italic;
+}
+
+/* Contenido del encabezado */
+.content_head {
+    position: relative;
+}
+
+/* Subrayado decorativo para el contenido del encabezado */
+.content_head::after {
+    content: '';
+    height: 4px;
+    width: 50%;
+    background-color: #007BFF; /* Subrayado azul para un toque de color */
+    position: absolute;
+    bottom: -15px;
+}
